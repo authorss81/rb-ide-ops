@@ -1,0 +1,43 @@
+﻿{
+  "project": "rb-ide",
+  "locked": true,
+  "lock_reason": "Milestone 1.5 lock active. Initiated once rb-pkg manifest stabilizes and rb-apps ships first 3 dogfooding apps.",
+  "pending": 5,
+  "phases": [
+    {
+      "id": "ide-001",
+      "component": "rb-lsp",
+      "title": "LSP 3.17 JSON-RPC daemon: initialize, shutdown, textDocument/didOpen, didChange",
+      "status": "pending",
+      "timeout_min": 120
+    },
+    {
+      "id": "ide-002",
+      "component": "rb-lsp-diag",
+      "title": "Compiler error mapping to LSP PublishDiagnostics with range underline and remedy tips",
+      "status": "pending",
+      "timeout_min": 120
+    },
+    {
+      "id": "ide-003",
+      "component": "textmate",
+      "title": "Redblue TextMate grammar: English keyword highlighting, string interpolation, comments",
+      "status": "pending",
+      "timeout_min": 90
+    },
+    {
+      "id": "ide-004",
+      "component": "vscode-client",
+      "title": "VS Code extension client: server lifecycle management, auto-formatting on save",
+      "status": "pending",
+      "timeout_min": 120
+    },
+    {
+      "id": "ide-005",
+      "component": "tree-sitter-redblue",
+      "title": "Tree-sitter Redblue grammar and parser bindings for syntax tree queries",
+      "status": "pending",
+      "timeout_min": 120
+    }
+  ]
+}
